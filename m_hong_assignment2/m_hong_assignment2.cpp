@@ -39,6 +39,21 @@ int main()
 	dog2.sleep();
 	dog2.sit();
 
+	cout << endl;
+
+	Dog dog3;
+	dog3.setName("Dory");
+	dog3.setAgeInMonths(22);
+	dog3.setHasFleas(true);
+	dog3.setWeightInPounds(23);
+	dog3.setGender(Male);
+	dog3.print();
+	dog3.bark();
+	dog3.scratch();
+	dog3.fetch();
+	dog3.eat();
+	dog3.sleep();
+	dog3.sit();
 	return 0;
 }
 

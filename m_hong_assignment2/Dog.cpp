@@ -1,8 +1,9 @@
 #include "stdafx.h"
 #include "Dog.h"
 
+const string Dog::DEFAULT_STR_VALUE = "NOT SET";
 
-Dog::Dog()
+Dog::Dog() : breed(DEFAULT_STR_VALUE), name(DEFAULT_STR_VALUE)
 {
 }
 
